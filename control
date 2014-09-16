@@ -1,11 +1,13 @@
 Source: lutris
 Maintainer: Pierre Rudloff <contact@rudloff.pro>
 Section: python
-Priority: extra
-Build-Depends: python (<< 2.8), python (>= 2.7), debhelper (>= 9)
+Priority: optional
+Build-Depends: python, debhelper (>= 9)
 Standards-Version: 3.9.5
-X-Python-Version: >= 2.7
+X-Python-Version: 2.7
 Homepage: https://lutris.net/
+Vcs-Git: https://github.com/Rudloff/lutris-debian
+Vcs-Browser: https://github.com/Rudloff/lutris-debian
 
 Package: lutris
 Architecture: all
@@ -13,6 +15,35 @@ Depends: ${misc:Depends}, ${python:Depends}, dconf-gsettings-backend | gsettings
 Section: games
 Description: Install and play any video game on Linux
  Lutris is a gaming platform for GNU/Linux. It's goal is
-     to make gaming on Linux as easy as possible by taking care of installing
-     and setting up the game for the user. The only thing you have to do is play
-     the game. It aims to support every game that is playable on Linux.
+ to make gaming on Linux as easy as possible by taking care of installing
+ and setting up the game for the user. The only thing you have to do is play
+ the game. It aims to support every game that is playable on Linux.
+ .
+ Lutris currently supports the following platforms:
+    * Linux (Native games)
+    * Steam
+    * Desura (Experimental support)
+    * Web browser
+    * Wine
+    * Wine + Steam
+    * DosBOX
+    * Mame
+    * Mess
+    * ScummVM
+    * Mednafen
+    * FS-UAE
+    * Vice
+    * Stella
+    * Atari800
+    * Hatari
+    * Virtual Jaguar
+    * Snes9x
+    * Mupen64 Plus
+    * PCSXR
+    * Osmose
+    * GenS
+    * NullDC (using wine)
+    * OpenMSX
+    * Frotz
+    * Jzintv
+    * O2em

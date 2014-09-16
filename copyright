@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: lutris
+Upstream-Name: Lutris
 Upstream-Contact: Mathieu Comandon <strycore@gmail.com>
-Upstream-Source: https://launchpad.net/lutris
+Upstream-Source: https://github.com/lutris/lutris
 
 Files: *
 Copyright: (C) 2009, 2010 Mathieu Comandon <strycore@gmail.com>
