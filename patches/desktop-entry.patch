@@ -1,0 +1,10 @@
+Add keywords to .desktop file
+Index: lutris-0.3.4/lutris.desktop
+===================================================================
+--- lutris-0.3.4.orig/lutris.desktop	2014-09-13 19:48:11.683809112 +0200
++++ lutris-0.3.4/lutris.desktop	2014-09-13 20:32:33.355790445 +0200
+@@ -8,3 +8,4 @@
+ Terminal=false
+ Type=Application
+ MimeType=x-scheme-handler/lutris;
++Keywords=games;manage;emulators

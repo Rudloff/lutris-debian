@@ -1,0 +1,18 @@
+Source: lutris
+Maintainer: Pierre Rudloff <contact@rudloff.pro>
+Section: python
+Priority: extra
+Build-Depends: python (<< 2.8), python (>= 2.7), debhelper (>= 9)
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.7
+Homepage: https://lutris.net/
+
+Package: lutris
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, dconf-gsettings-backend | gsettings-backend, python (<< 2.8), python (>= 2.7), python-yaml, gir1.2-gtk-3.0 (>= 3.10), python-xdg
+Section: games
+Description: Install and play any video game on Linux
+ Lutris is a gaming platform for GNU/Linux. It's goal is
+     to make gaming on Linux as easy as possible by taking care of installing
+     and setting up the game for the user. The only thing you have to do is play
+     the game. It aims to support every game that is playable on Linux.
