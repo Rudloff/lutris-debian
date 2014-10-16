@@ -7,6 +7,10 @@ Files: *
 Copyright: 2010-2014 Mathieu Comandon <strider@strycore.com>
 License: GPL-3
 
+Files: data/ui/about-dialog.ui
+Copyright: 2010-2014 Mathieu Comandon <strider@strycore.com>
+License: GPL-3+
+
 Files: bin/padsp32
 Copyright: 2006 Lennart Poettering
            2006 Pierre Ossman <ossman@cendio.se> for Cendio AB
